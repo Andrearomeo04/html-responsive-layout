@@ -21,15 +21,26 @@
     flex-wrap: wrap;
 }
 
-.col-50,
-.col-50-menu {
+.header-left,
+.header-right {
     width: 50%;
 }
 
-.col-50-menu {
+.col-66,
+.col-33 {
+    width: 100%;
+}
+
+.header-right {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}
+
+.content {
+    margin: 10px;
+    background-color: blueviolet;
+    height: 300px;
 }
 
 /* UTILITY CLASSES */
