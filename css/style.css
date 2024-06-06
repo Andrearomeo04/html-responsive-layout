@@ -11,24 +11,26 @@ header {
     padding: 10px 0;
 }
 
-.info {
+.info,
+.strategic-planning,
+.benefits,
+.about-us,
+.get-started {
     margin: 40px 0;
 }
 
-.strategic-planning {
+main > *:nth-child(even) {
     background-color: #9792e4;
-    margin: 40px 0;
+}
+
+.strategic-planning,
+.benefits,
+.get-started {
     padding: 40px 0;
 } 
 
 .expert-partners {
     margin-bottom: 80px;
-}
-
-.benefits {
-    background-color: #9792e4;
-    margin: 40px 0;
-    padding: 40px 0;
 }
 
 /* LAYOUT CLASSES */
