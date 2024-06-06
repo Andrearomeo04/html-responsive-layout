@@ -12,18 +12,7 @@ header {
 }
 
 .info,
-.strategic-planning,
-.benefits,
-.about-us {
-    margin: 40px 0;
-}
-
-.info,
-.strategic-planning,
-.expert-partners
-.benefits,
-.about-us,
-.get-started {
+.expert-partners {
     margin: 40px 30px;
 }
 
@@ -33,17 +22,21 @@ main > *:nth-child(even) {
 
 .strategic-planning,
 .benefits,
-.get-started,
 footer {
-    padding: 40px 0;
+    padding: 40px 30px;
 } 
 
 .expert-partners {
     margin-bottom: 80px;
 }
 
+.about-us {
+    margin: 40px 50px;
+}
+
 .get-started {
     margin-top: 40px;
+    padding: 40px 100px;
 }
 
 footer {
@@ -70,6 +63,7 @@ footer {
 .col-66,
 .col-50,
 .col-33,
+.col-33-benefits,
 .col-30
  {
     width: 100%;
@@ -99,3 +93,14 @@ footer {
 }
 
 /* RESPONSIVENESS */
+@media screen and (min-width: 768px) {
+    .col-66 {
+        width: calc(100% / 3 * 2);
+    }
+    .col-33 {
+        width: calc(100% / 3);
+    }
+    .col-33-benefits {
+        width: 50%;
+    }
+}
