@@ -21,6 +21,10 @@ header {
     padding: 40px 0;
 } 
 
+.expert-partners {
+    margin-bottom: 80px;
+}
+
 /* LAYOUT CLASSES */
 .container {
     max-width: 100%;
@@ -38,7 +42,8 @@ header {
 
 .col-66,
 .col-33,
-.col-50 {
+.col-50,
+.col-100 {
     width: 100%;
 }
 
