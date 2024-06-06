@@ -14,9 +14,17 @@ header {
 .info,
 .strategic-planning,
 .benefits,
+.about-us {
+    margin: 40px 0;
+}
+
+.info,
+.strategic-planning,
+.expert-partners
+.benefits,
 .about-us,
 .get-started {
-    margin: 40px 0;
+    margin: 40px 30px;
 }
 
 main > *:nth-child(even) {
@@ -25,12 +33,21 @@ main > *:nth-child(even) {
 
 .strategic-planning,
 .benefits,
-.get-started {
+.get-started,
+footer {
     padding: 40px 0;
 } 
 
 .expert-partners {
     margin-bottom: 80px;
+}
+
+.get-started {
+    margin-top: 40px;
+}
+
+footer {
+    background-color: #333333;
 }
 
 /* LAYOUT CLASSES */
@@ -67,12 +84,12 @@ main > *:nth-child(even) {
 .content {
     background-color: blueviolet;
     height: 300px;
+    margin: 10px;
 }
 
-.content,
 .content-head {
 
-    margin: 10px 30px;
+    margin: 10px 40px;
 }
 
 /* UTILITY CLASSES */
@@ -80,3 +97,5 @@ main > *:nth-child(even) {
 .fa-solid {
     font-size: 30px;
 }
+
+/* RESPONSIVENESS */
