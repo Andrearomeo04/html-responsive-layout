@@ -21,8 +21,7 @@ main > *:nth-child(even) {
 }
 
 .strategic-planning,
-.benefits,
-footer {
+.benefits {
     padding: 40px 30px;
 } 
 
@@ -41,6 +40,7 @@ footer {
 
 footer {
     background-color: #333333;
+    padding: 40px 180px;
 }
 
 /* LAYOUT CLASSES */
@@ -102,5 +102,11 @@ footer {
     }
     .col-33-benefits {
         width: 50%;
+    }
+    .col-70 {
+        width: 70%;
+    }
+    .col-30 {
+        width: 30%;
     }
 }
