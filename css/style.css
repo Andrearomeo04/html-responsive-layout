@@ -46,10 +46,13 @@ header {
     width: 50%;
 }
 
+.col-100,
+.col-70,
 .col-66,
-.col-33,
 .col-50,
-.col-100 {
+.col-33,
+.col-30
+ {
     width: 100%;
 }
 
