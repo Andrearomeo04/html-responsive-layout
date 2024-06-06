@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* SECTION CLASSES */
+    header {
+        background-color: #0084fd;
+        color: white;
+        padding: 20px;
+    }
+
+/* LAYOUT CLASSES */
+.container {
+    max-width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-50,
+.col-50-menu {
+    width: 50%;
+}
+
+.col-50-menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* UTILITY CLASSES */
+
+.fa-solid {
+    font-size: 30px;
+}
