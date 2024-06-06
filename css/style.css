@@ -5,11 +5,21 @@
 }
 
 /* SECTION CLASSES */
-    header {
-        background-color: #0084fd;
-        color: white;
-        padding: 20px;
-    }
+header {
+    background-color: #0084fd;
+    color: white;
+    padding: 10px 0;
+}
+
+.info {
+    margin: 40px 0;
+}
+
+.strategic-planning {
+    background-color: #9792e4;
+    margin: 40px 0;
+    padding: 40px 0;
+} 
 
 /* LAYOUT CLASSES */
 .container {
@@ -27,7 +37,8 @@
 }
 
 .col-66,
-.col-33 {
+.col-33,
+.col-50 {
     width: 100%;
 }
 
@@ -38,9 +49,14 @@
 }
 
 .content {
-    margin: 10px;
     background-color: blueviolet;
     height: 300px;
+}
+
+.content,
+.content-head {
+
+    margin: 10px 30px;
 }
 
 /* UTILITY CLASSES */
