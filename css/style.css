@@ -75,6 +75,16 @@ footer {
     align-items: center;
 }
 
+.desktop-menu {
+    list-style-type: none;
+    display: none;
+}
+
+.desktop-menu li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
 .content {
     background-color: blueviolet;
     height: 300px;
@@ -90,6 +100,17 @@ footer {
 
 .fa-solid {
     font-size: 30px;
+}
+
+.fs-18 {
+    font-size: 18px;
+}
+
+.btn-white {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding: 10px;
 }
 
 /* RESPONSIVENESS */
@@ -108,5 +129,28 @@ footer {
     }
     .col-30 {
         width: 30%;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1200px;
+        margin: 0 auto;
+    }
+    .content-head {
+        margin: 10px;
+    }
+    .content-head .fa-solid {
+        display: none;
+    }
+
+    .desktop-menu {
+        display: inline-block;
+    }
+    .col-50 {
+        width: 50%;
+    }
+    .col-33-benefits {
+        width: calc(100% / 3);
     }
 }
