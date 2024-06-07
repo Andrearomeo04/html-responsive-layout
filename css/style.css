@@ -39,7 +39,7 @@ main > *:nth-child(even) {
 
 .get-started {
     margin-top: 40px;
-    padding: 40px 100px;
+    padding: 40px 30px;
 }
 
 footer {
@@ -166,6 +166,14 @@ footer {
     padding: 10px;
 }
 
+.btn-white-get-started {
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    padding: 15px 70px;
+
+}
+
 .btn-blue {
     background-color: #0084fd;
     color: white;
@@ -276,6 +284,14 @@ footer {
     color: #9792e4;
 }
 
+.main-color-3 {
+    color: #fdc15f;
+}
+
+.main-color-4 {
+    color: white;
+}
+
 .text-left {
     text-align: left;
 }
@@ -357,6 +373,31 @@ footer {
     font-size: 70px;
 }
 
+.content-get-started span:first-child {
+    color: rgba(255, 255, 255, 0.658);
+}
+
+.content-get-started h3 {
+    padding: 20px;
+}
+
+.content-get-started h2 {
+    padding-bottom: 20px;
+}
+
+.content-get-started span:nth-last-child(2) {
+    display: inline-block;
+    margin: 25px;
+}
+
+.content-get-started p:nth-last-child(1) a {
+    color: white;
+}
+
+br {
+    display: none;
+}
+
 /* RESPONSIVENESS */
 @media screen and (min-width: 768px) {
     .col-66 {
@@ -396,6 +437,12 @@ footer {
     }
     .col-70 {
         padding-right: 80px;
+    }
+    .get-started {
+        padding: 40px 200px;
+    }
+    br {
+        display: inline;
     }
 }
 
@@ -438,4 +485,5 @@ footer {
     .plan-2 {
         width: 100%;
     }
+    
 }
