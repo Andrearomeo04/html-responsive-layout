@@ -44,7 +44,7 @@ main > *:nth-child(even) {
 
 footer {
     background-color: #333333;
-    padding: 40px 180px;
+    padding: 40px 30px;
 }
 
 /* LAYOUT CLASSES */
@@ -66,6 +66,7 @@ footer {
     width: 50%;
 }
 
+/* col section  */
 .col-100,
 .col-70,
 .col-66,
@@ -81,6 +82,7 @@ footer {
     position: relative;
 }
 
+/* header section */
 .header-right {
     display: flex;
     justify-content: flex-end;
@@ -97,6 +99,7 @@ footer {
     margin: 0 15px;
 }
 
+/* content section  */
 .content {
     background-color: blueviolet;
     height: 300px;
@@ -152,84 +155,9 @@ footer {
     padding: 30px 25px;
     background-color: white;
 }
+/* main section  */
 
-/* UTILITY CLASSES */
-
-.fa-solid {
-    font-size: 30px;
-}
-
-.btn-white {
-    background-color: white;
-    color: black;
-    border-radius: 20px;
-    padding: 10px;
-}
-
-.btn-white-get-started {
-    background-color: white;
-    color: black;
-    border-radius: 30px;
-    padding: 15px 70px;
-
-}
-
-.btn-blue {
-    background-color: #0084fd;
-    color: white;
-    border-radius: 20px;
-    padding: 10px 50px;
-}
-
-.btn-purple {
-    background-color: #9792e4;
-    color: white;
-    border-radius: 20px;
-    padding: 10px 50px;
-}
-
-.btn-purple-linkedin {
-    background-color: #9792e4;
-    color: white;
-    border-radius: 20px;
-    padding: 5px;
-}
-
-
-
-
-.py-40 {
-    padding-bottom: 40px;
-}
-
-.fs-14 {
-    font-size: 14px;
-}
-
-.fs-16 {
-    font-size: 16px;
-}
-
-.fs-17 {
-    font-size: 17px;
-}
-
-.fs-20 {
-    font-size: 20px;
-}
-
-.fs-25 {
-    font-size: 22px;
-}
-
-.fs-35 {
-    font-size: 35px;
-}
-
-.fs-45 {
-    font-size: 45px;
-}
-
+/* info section  */
 .icon-info i {
     font-size: 70px;
     display: block;
@@ -262,6 +190,7 @@ footer {
     margin-bottom: -7px;
 }
 
+/* plan section  */
 .content-plan-1 {
     color: white;
 }
@@ -273,31 +202,6 @@ footer {
 .content-plan-1 p,
 .content-plan-2 p {
     padding-bottom: 40px;
-}
-
-.main-color-1 {
-    color: #0084fd;
-}
-
-.main-color-2
-{
-    color: #9792e4;
-}
-
-.main-color-3 {
-    color: #fdc15f;
-}
-
-.main-color-4 {
-    color: white;
-}
-
-.text-left {
-    text-align: left;
-}
-
-.text-center {
-    text-align: center;
 }
 
 .plan-1 img {
@@ -315,6 +219,7 @@ footer {
     font-size: 30px;
 }
 
+/* partner sections  */
 .content-testimonials h2 {
     padding: 30px 0;
 }
@@ -331,6 +236,7 @@ footer {
     padding: 20px 0;
 }
 
+/* benefits section  */
 .content-benefits-title {
     color: white;
 }
@@ -349,6 +255,7 @@ footer {
     line-height: 25px;
 }
 
+/* about us section  */
 .content-about-us h2 {
     padding: 10px 0;
 }
@@ -373,6 +280,7 @@ footer {
     font-size: 70px;
 }
 
+/* get started section  */
 .content-get-started span:first-child {
     color: rgba(255, 255, 255, 0.658);
 }
@@ -394,8 +302,126 @@ footer {
     color: white;
 }
 
-br {
-    display: none;
+.content-get-started{
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* footer section  */
+.content-footer p:nth-child(1) {
+    padding-bottom: 60px;
+}
+
+.content-footer p :nth-last-child(1) {
+    padding-bottom: 20px;
+}
+
+.content-footer {
+    max-width: 480px;
+    margin: 0 auto;
+}
+
+/* UTILITY CLASSES */
+
+/* button section  */
+.btn-white {
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding: 10px;
+    }
+    
+    .btn-white-get-started {
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    padding: 15px 70px;
+}
+
+.btn-blue {
+    background-color: #0084fd;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 50px;
+}
+
+.btn-purple {
+    background-color: #9792e4;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 50px;
+}
+
+.btn-purple-linkedin {
+    background-color: #9792e4;
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+/* padding section  */
+.py-40 {
+    padding-bottom: 40px;
+}
+
+/* font size section  */
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-17 {
+    font-size: 17px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-25 {
+    font-size: 22px;
+}
+
+.fa-solid {
+    font-size: 30px;
+}
+
+.fs-35 {
+    font-size: 35px;
+}
+
+.fs-45 {
+    font-size: 45px;
+}
+
+/* colors section  */
+.main-color-1 {
+    color: #0084fd;
+}
+
+.main-color-2
+{
+    color: #9792e4;
+}
+
+.main-color-3 {
+    color: #fdc15f;
+}
+
+.main-color-4 {
+    color: white;
+}
+
+/* text align section  */
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
 }
 
 /* RESPONSIVENESS */
@@ -438,11 +464,11 @@ br {
     .col-70 {
         padding-right: 80px;
     }
-    .get-started {
-        padding: 40px 200px;
+    .content-get-started h3 {
+        font-size: 40px;
     }
-    br {
-        display: inline;
+    .content-get-started h2 {
+        font-size: 80px;
     }
 }
 
@@ -485,5 +511,4 @@ br {
     .plan-2 {
         width: 100%;
     }
-    
 }
