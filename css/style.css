@@ -34,7 +34,7 @@ main > *:nth-child(even) {
 }
 
 .about-us {
-    margin: 40px 50px;
+    margin: 40px 50px 80px 50px;
 }
 
 .get-started {
@@ -75,6 +75,10 @@ footer {
 .col-30
  {
     width: 100%;
+}
+
+.col-30 {
+    position: relative;
 }
 
 .header-right {
@@ -176,6 +180,14 @@ footer {
     padding: 10px 50px;
 }
 
+.btn-purple-linkedin {
+    background-color: #9792e4;
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+
 
 
 .py-40 {
@@ -196,6 +208,10 @@ footer {
 
 .fs-20 {
     font-size: 20px;
+}
+
+.fs-25 {
+    font-size: 22px;
 }
 
 .fs-35 {
@@ -317,6 +333,30 @@ footer {
     line-height: 25px;
 }
 
+.content-about-us h2 {
+    padding: 10px 0;
+}
+
+.content-about-us p {
+    padding: 30px 0;
+    line-height: 40px;
+}
+
+.about-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px;
+}
+
+.about-image i {
+    position: absolute;
+    top: 10px;
+    left: 160px;
+    font-size: 70px;
+}
+
 /* RESPONSIVENESS */
 @media screen and (min-width: 768px) {
     .col-66 {
@@ -353,6 +393,9 @@ footer {
     }
     .nat-cit {
         text-align: left;
+    }
+    .col-70 {
+        padding-right: 80px;
     }
 }
 
