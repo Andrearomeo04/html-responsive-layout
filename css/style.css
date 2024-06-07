@@ -125,6 +125,17 @@ footer {
     border-radius: 50px;
 }
 
+.content-testimonials {
+    margin: 10px;
+}
+
+.content-partners {
+    background-color: #9792e4;
+    color: white;
+    margin: 10px;
+    border-radius: 40px;
+    padding: 10px;
+}
 
 /* UTILITY CLASSES */
 
@@ -152,8 +163,16 @@ footer {
     padding-bottom: 40px;
 }
 
-.fs-18 {
-    font-size: 18px;
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-17 {
+    font-size: 17px;
+}
+
+.fs-20 {
+    font-size: 20px;
 }
 
 .fs-35 {
@@ -209,6 +228,11 @@ footer {
     color: #0084fd;
 }
 
+.main-color-2
+{
+    color: #9792e4;
+}
+
 .text-left {
     text-align: left;
 }
@@ -230,6 +254,22 @@ footer {
     border-radius: 25px;
     padding: 0px 15px;
     font-size: 30px;
+}
+
+.content-testimonials h2 {
+    padding: 30px 0;
+}
+
+.nat img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px;
+}
+
+.content-partners h2 {
+    padding: 20px 0;
 }
 
 /* RESPONSIVENESS */
@@ -257,6 +297,17 @@ footer {
     }
     .content-plan-1 h2 {
         font-size: 60px;
+    }
+    .nat {
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+    }
+    .nat-cit p {
+        line-height: 30px;
+    }
+    .nat-cit {
+        text-align: left;
     }
 }
 
