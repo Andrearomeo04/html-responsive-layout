@@ -137,6 +137,18 @@ footer {
     padding: 10px;
 }
 
+.content-benefits-title {
+    margin: 10px;
+    padding: 30px 0;
+}
+
+.content-benefits {
+    margin: 10px;
+    border-radius: 20px;
+    padding: 30px 25px;
+    background-color: white;
+}
+
 /* UTILITY CLASSES */
 
 .fa-solid {
@@ -154,13 +166,24 @@ footer {
     background-color: #0084fd;
     color: white;
     border-radius: 20px;
-    padding: 10px 70px;
+    padding: 10px 50px;
+}
+
+.btn-purple {
+    background-color: #9792e4;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 50px;
 }
 
 
 
 .py-40 {
     padding-bottom: 40px;
+}
+
+.fs-14 {
+    font-size: 14px;
 }
 
 .fs-16 {
@@ -177,6 +200,10 @@ footer {
 
 .fs-35 {
     font-size: 35px;
+}
+
+.fs-45 {
+    font-size: 45px;
 }
 
 .icon-info i {
@@ -270,6 +297,24 @@ footer {
 
 .content-partners h2 {
     padding: 20px 0;
+}
+
+.content-benefits-title {
+    color: white;
+}
+
+.content-benefits h2,
+.content-benefits h3 {
+    color: #9792e4;
+}
+
+.content-benefits h3 {
+    padding: 20px 0;
+}
+
+.content-benefits p {
+    padding-bottom: 30px;
+    line-height: 25px;
 }
 
 /* RESPONSIVENESS */
